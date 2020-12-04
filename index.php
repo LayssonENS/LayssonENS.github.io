@@ -26,7 +26,7 @@
 
           // Configura
           curl_setopt_array($curl, [
-          CURLOPT_HTTPHEADER, array('Content-Type: application/json' , $authorization ),
+          CURLOPT_HTTPHEADER, array('Content-Type: application/x-www-form-urlencoded' , $authorization ),
           CURLOPT_RETURNTRANSFER => 1,
           CURLOPT_URL => 'https://api.sinric.pro/api/v1/devices/5fc5041032b3021cb51e30d9'
           ]);
